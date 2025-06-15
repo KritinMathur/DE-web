@@ -1,0 +1,36 @@
+.branding-branding1 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.branding-branding2 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.branding-image {
+  width: var(--dl-layout-size-small);
+  object-fit: cover;
+}
+ 
+.branding-text1 {
+  color: rgb(18, 40, 33);
+  font-size: 24px;
+  line-height: 36px;
+}
+ 
+.branding-fragment {
+  display: contents;
+}
+ 
+.branding-text2 {
+  display: inline-block;
+}
