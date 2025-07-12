@@ -12,7 +12,7 @@
 .hero-blur-bg {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-image: url('public/Divina Exims Assets/dehydrated_fruitsnveggies-1400w.webp'); /* Change to your image */
+  background-image: url('public/Divina Exims Assets/Background/file_000000008a3461fbacbba1757b2d32f8.png'); /* Change to your image */
   background-size: cover;
   background-position: center;
   filter: blur(8px) brightness(0.7);
