@@ -162,148 +162,442 @@
             </div>
           </header>
         </header>
-        <section class="products-services">
-          <div class="products-heading">
-            <h2 class="products-text16">Take a look at the latest products</h2>
-            <p class="products-text17">
-              Explore our wide range of high-quality fruit and vegetable
-              powders, flakes, and slices—crafted for taste, nutrition, and
-              versatility.
-            </p>
-          </div>
-          <div class="products-sections">
-            <div class="products-row1">
-              <div class="products-section1">
-                <div class="products-header2">
-                  <h3 class="products-text18">Product 1</h3>
-                  <div class="products-description1">
-                    <p class="products-text19">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est
-                      laborum.
-                    </p>
-                    <img
-                      alt="image"
-                      src="public/Divina Exims Assets/orange_1_1200x-500w.webp"
-                      class="products-image2"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="products-section2">
-                <div class="products-header3">
-                  <h3 class="products-text20">Product 2</h3>
-                  <div class="products-description2">
-                    <p class="products-text21">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est
-                      laborum.
-                    </p>
-                    <img
-                      alt="image"
-                      src="public/Divina Exims Assets/orange_1_1200x-500w.webp"
-                      class="products-image3"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="products-row2">
-              <div class="products-section3">
-                <div class="products-header4">
-                  <h3 class="products-text22">Product 3</h3>
-                  <div class="products-description3">
-                    <p class="products-text23">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est
-                      laborum.
-                    </p>
-                    <img
-                      alt="image"
-                      src="public/Divina Exims Assets/orange_1_1200x-500w.webp"
-                      class="products-image4"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="products-section4">
-                <div class="products-header5">
-                  <h3 class="products-text24">Product 4</h3>
-                  <div class="products-description4">
-                    <p class="products-text25">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est
-                      laborum.
-                    </p>
-                    <img
-                      alt="image"
-                      src="public/Divina Exims Assets/orange_1_1200x-500w.webp"
-                      class="products-image5"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="products-row3">
-              <div class="products-section5">
-                <div class="products-header6">
-                  <h3 class="products-text26">Product 5</h3>
-                  <div class="products-description5">
-                    <p class="products-text27">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est
-                      laborum.
-                    </p>
-                    <p class="products-text28">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                    <img
-                      alt="image"
-                      src="public/Divina Exims Assets/orange_1_1200x-500w.webp"
-                      class="products-image6"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="products-section6">
-                <div class="products-header7">
-                  <h3 class="products-text29">Product 6</h3>
-                  <div class="products-description6">
-                    <p class="products-text30">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est
-                      laborum.
-                    </p>
-                    <p class="products-text31">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                    <img
-                      alt="image"
-                      src="public/Divina Exims Assets/orange_1_1200x-500w.webp"
-                      class="products-image7"
-                    />
-                  </div>
-                </div>
-              </div>
+<!-- ...existing code... -->
+<section class="products-services">
+  <div class="products-heading">
+    <h2 class="products-text16">Take a look at the latest products</h2>
+  </div>
+  <!-- Tabs Start -->
+  <div class="products-tabs">
+    <div class="products-tabs-nav">
+      <button class="tab-btn active" onclick="showTab(event, 'fruits')">Dehydrated fruits (Slices / Minced/ Powder)</button>
+      <button class="tab-btn" onclick="showTab(event, 'vegetables')">Dehydrated vegetables (Powder, Flakes, Chopped, Granules)</button>
+      <button class="tab-btn" onclick="showTab(event, 'rajasthaniVegies')">Rajasthani Dried Vegetables</button>
+    </div>
+<!-- ...existing code... -->
+    <div id="fruits" class="products-tabs-content" style="display:block;">
+      <!-- 17 Fruits: 4 per row, last row padded with empty divs -->
+      <div class="products-row1">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Amla (Indian gooseberry)</h3>
+            <div class="products-description1">
+              <img alt="Amla" src="public/Divina Exims Assets/fruitimages/Amla.jpg" class="products-image2" />
             </div>
           </div>
-        </section>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Apple</h3>
+            <div class="products-description2">
+              <img alt="Apple" src="public/Divina Exims Assets/fruitimages/Apple.jpg" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Banana</h3>
+            <div class="products-description3">
+              <img alt="Banana" src="public/Divina Exims Assets/fruitimages/Banana.jpg" class="products-image4" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section4">
+          <div class="products-header5">
+            <h3 class="products-text24">Beetroot</h3>
+            <div class="products-description4">
+              <img alt="Beetroot" src="public/Divina Exims Assets/fruitimages/Beetroot.jpg" class="products-image5" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-row2">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Guava</h3>
+            <div class="products-description1">
+              <img alt="Guava" src="public/Divina Exims Assets/fruitimages/Guava.jpg" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Lychee</h3>
+            <div class="products-description2">
+              <img alt="Lychee" src="public/Divina Exims Assets/fruitimages/Lychee.jpg" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Mango</h3>
+            <div class="products-description3">
+              <img alt="Mango" src="public/Divina Exims Assets/fruitimages/Mango.jpg" class="products-image4" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section4">
+          <div class="products-header5">
+            <h3 class="products-text24">Muskmelons</h3>
+            <div class="products-description4">
+              <img alt="Muskmelons" src="public/Divina Exims Assets/fruitimages/Muskmelons.jpg" class="products-image5" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-row3">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Oranges</h3>
+            <div class="products-description1">
+              <img alt="Oranges" src="public/Divina Exims Assets/fruitimages/Oranges.jpg" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Papaya</h3>
+            <div class="products-description2">
+              <img alt="Papaya" src="public/Divina Exims Assets/fruitimages/Papaya.jpg" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Pear</h3>
+            <div class="products-description3">
+              <img alt="Pear" src="public/Divina Exims Assets/fruitimages/Pear.jpg" class="products-image4" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section4">
+          <div class="products-header5">
+            <h3 class="products-text24">Pineapple</h3>
+            <div class="products-description4">
+              <img alt="Pineapple" src="public/Divina Exims Assets/fruitimages/Pineapple.jpg" class="products-image5" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-row4">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Pomegranate</h3>
+            <div class="products-description1">
+              <img alt="Pomegranate" src="public/Divina Exims Assets/fruitimages/Pomegranate.jpg" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Sapodilla (Chikoo)</h3>
+            <div class="products-description2">
+              <img alt="Sapodilla" src="public/Divina Exims Assets/fruitimages/Sapodilla.jpg" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Strawberry</h3>
+            <div class="products-description3">
+              <img alt="Strawberry" src="public/Divina Exims Assets/fruitimages/Strawberry.jpg" class="products-image4" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section4">
+          <div class="products-header5">
+            <h3 class="products-text24">Watermelon</h3>
+            <div class="products-description4">
+              <img alt="Watermelon" src="public/Divina Exims Assets/fruitimages/Watermelon.jpg" class="products-image5" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- ...repeat similar structure for vegetables and dried rajasthani vegetables... -->
+
+    <div id="vegetables" class="products-tabs-content" style="display:none;">
+      <!-- 25 Vegetables: 4 per row, last row padded with empty divs -->
+      <div class="products-row1">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Bitter Gourd</h3>
+            <div class="products-description1">
+              <img alt="Bitter Gourd" src="public/Divina Exims Assets/vegitables/Bitter-gourd.jpg" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Bottle Gourd</h3>
+            <div class="products-description2">
+              <img alt="Bottle Gourd" src="public/Divina Exims Assets/vegitables/Bottle gourd.JPG" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Brinjal</h3>
+            <div class="products-description3">
+              <img alt="Brinjal" src="public/Divina Exims Assets/vegitables/Brinjal.jpg" class="products-image4" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section4">
+          <div class="products-header5">
+            <h3 class="products-text24">Cabbage</h3>
+            <div class="products-description4">
+              <img alt="Cabbage" src="public/Divina Exims Assets/vegitables/Cabbage.jpg" class="products-image5" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-row2">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Capsicum</h3>
+            <div class="products-description1">
+              <img alt="Capsicum" src="public/Divina Exims Assets/vegitables/Capsicum.jpg" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Carrot</h3>
+            <div class="products-description2">
+              <img alt="Carrot" src="public/Divina Exims Assets/vegitables/Carrot.png" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Cauliflower</h3>
+            <div class="products-description3">
+              <img alt="Cauliflower" src="public/Divina Exims Assets/vegitables/Cauliflower.jpg" class="products-image4" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section4">
+          <div class="products-header5">
+            <h3 class="products-text24">Coriander Leaves</h3>
+            <div class="products-description4">
+              <img alt="Coriander Leaves" src="public/Divina Exims Assets/vegitables/Coriander leaves.jpg" class="products-image5" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-row3">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Cucumber</h3>
+            <div class="products-description1">
+              <img alt="Cucumber" src="public/Divina Exims Assets/vegitables/Cucumber.jpg" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Curry Leaf</h3>
+            <div class="products-description2">
+              <img alt="Curry Leaf" src="public/Divina Exims Assets/vegitables/curry-leaf.jpg" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">French Bean</h3>
+            <div class="products-description3">
+              <img alt="French Bean" src="public/Divina Exims Assets/vegitables/french-bean.jpg" class="products-image4" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section4">
+          <div class="products-header5">
+            <h3 class="products-text24">Garlic</h3>
+            <div class="products-description4">
+              <img alt="Garlic" src="public/Divina Exims Assets/vegitables/garlic.jpg" class="products-image5" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-row4">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Ginger</h3>
+            <div class="products-description1">
+              <img alt="Ginger" src="public/Divina Exims Assets/vegitables/ginger.jpg" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Green Chilli</h3>
+            <div class="products-description2">
+              <img alt="Green Chilli" src="public/Divina Exims Assets/vegitables/green-chill.jpg" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Green Peas</h3>
+            <div class="products-description3">
+              <img alt="Green Peas" src="public/Divina Exims Assets/vegitables/green-peas.jpg" class="products-image4" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section4">
+          <div class="products-header5">
+            <h3 class="products-text24">Lemon</h3>
+            <div class="products-description4">
+              <img alt="Lemon" src="public/Divina Exims Assets/vegitables/Lemon.jpg" class="products-image5" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-row5">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Moringa</h3>
+            <div class="products-description1">
+              <img alt="Moringa" src="public/Divina Exims Assets/vegitables/Moringa.jpg" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Mushrooms</h3>
+            <div class="products-description2">
+              <img alt="Mushrooms" src="public/Divina Exims Assets/vegitables/Mushrooms.jpg" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Okra</h3>
+            <div class="products-description3">
+              <img alt="Okra" src="public/Divina Exims Assets/vegitables/Okra.jpg" class="products-image4" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section4">
+          <div class="products-header5">
+            <h3 class="products-text24">Potato</h3>
+            <div class="products-description4">
+              <img alt="Potato" src="public/Divina Exims Assets/vegitables/Potato.jpg" class="products-image5" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-row6">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Red Onion</h3>
+            <div class="products-description1">
+              <img alt="Red Onion" src="public/Divina Exims Assets/vegitables/Red onion.jpg" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Spinach</h3>
+            <div class="products-description2">
+              <img alt="Spinach" src="public/Divina Exims Assets/vegitables/Spinach.jpg" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Tomato</h3>
+            <div class="products-description3">
+              <img alt="Tomato" src="public/Divina Exims Assets/vegitables/Tomato.jpg" class="products-image4" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section4">
+          <div class="products-header5">
+            <h3 class="products-text24">White Onion</h3>
+            <div class="products-description4">
+              <img alt="White Onion" src="public/Divina Exims Assets/vegitables/White Onion.jpg" class="products-image5" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="rajasthaniVegies" class="products-tabs-content" style="display:none;">
+      <!-- 6 Dried Rajasthani Vegetables: 3 per row, last row padded with empty div -->
+      <div class="products-row1">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18"> Dried Guar Fali/ Cluster bean (Cyamopsis tetragonoloba)</h3>
+            <div class="products-description1">
+              <img alt="Guar Fali" src="public/Divina Exims Assets/rajasthanidriedvegetables/Guar Fali.JPG" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Dried  Kachri (Cucumis pubescens)</h3>
+            <div class="products-description2">
+              <img alt="Kachri" src="public/Divina Exims Assets/rajasthanidriedvegetables/Kachri.JPG" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Dried Ker/ Indian capers (Capparis Decidua) </h3>
+            <div class="products-description3">
+              <img alt="Ker" src="public/Divina Exims Assets/rajasthanidriedvegetables/Ker.png" class="products-image4" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-row2">
+        <div class="products-section1">
+          <div class="products-header2">
+            <h3 class="products-text18">Dried Kumtiya/ Kumat Beans (Acacia senegal)</h3>
+            <div class="products-description1">
+              <img alt="Kumtiya" src="public/Divina Exims Assets/rajasthanidriedvegetables/Kumtiya.png" class="products-image2" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section2">
+          <div class="products-header3">
+            <h3 class="products-text20">Panchkuta</h3>
+            <div class="products-description2">
+              <img alt="Panchkuta" src="public/Divina Exims Assets/rajasthanidriedvegetables/Panchkuta.png" class="products-image3" />
+            </div>
+          </div>
+        </div>
+        <div class="products-section3">
+          <div class="products-header4">
+            <h3 class="products-text22">Dried Sangri/ desert bean (Prosopis cineraria)</h3>
+            <div class="products-description3">
+              <img alt="Sangri" src="public/Divina Exims Assets/rajasthanidriedvegetables/Sangri.JPG" class="products-image4" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tabs End -->
+</section>
+<script>
+  function showTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("products-tabs-content");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tab-btn");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].classList.remove("active");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.classList.add("active");
+  }
+</script>
+<!-- ...existing
         <section class="products-banner">
           <div class="products-container2">
             <div class="products-header8">
