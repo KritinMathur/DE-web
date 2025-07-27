@@ -2604,3 +2604,64 @@
     width: 100%;
   }
 }
+
+/* --- Add near the end of your CSS file --- */
+
+/* Desktop: Remove left padding and center alignment */
+.home-mission1 {
+  padding-left: 0 !important;
+  align-items: flex-start !important;
+}
+.home-improve {
+  padding-left: 0 !important;
+  align-items: flex-start !important;
+}
+.home-heading1 {
+  align-items: flex-start !important;
+}
+
+/* Make mission and improve sections truly full width on desktop */
+.home-mission1,
+.home-improve {
+  max-width: none !important;
+  width: 100vw !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box;
+}
+
+/* Make headings and text full width and remove max-width */
+.home-text17,
+.home-text19,
+.home-text20 {
+  max-width: none !important;
+  width: 100% !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Remove max-width from .home-heading1 if needed */
+.home-heading1 {
+  max-width: none !important;
+  width: 100% !important;
+  align-items: flex-start !important;
+}
+
+/* On mobile, restore padding for readability */
+@media (max-width: 991px) {
+  .home-mission1,
+  .home-improve {
+    padding-left: var(--dl-layout-space-oneandhalfunits) !important;
+    padding-right: var(--dl-layout-space-oneandhalfunits) !important;
+    width: 100% !important;
+  }
+  .home-heading1 {
+    align-items: center !important;
+  }
+  .home-text17,
+  .home-text19,
+  .home-text20 {
+    text-align: center !important;
+  }
+}
