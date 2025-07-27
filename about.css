@@ -1,3 +1,62 @@
+about.css */
+/* ...existing code... */
+
+/* --- About Us custom styles --- */
+.about-main-content {
+  background: #fffbe7;
+  padding: 40px 0;
+}
+
+.about-why-choose {
+  background: #fdf9f5;
+  padding: 40px 0 60px 0;
+}
+
+.about-why-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.about-why-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(18,40,33,0.06);
+  padding: 28px 24px;
+  max-width: 340px;
+  min-width: 260px;
+  flex: 1 1 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-why-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #122821;
+  font-weight: 600;
+}
+
+.about-why-card p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+  .about-why-cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+  }
+  .about-why-card {
+    max-width: 100%;
+    min-width: 0;
+  }
+}
+
 .hero-blur-section {
   position: relative;
   width: 100%;
